@@ -24,7 +24,7 @@ public class StudentController {
 		student.setCreatedAt(ld);
 		mongoTemplate.save(student);
 
-		return "Saved successfully";
+		return "Saved successfully ";
 	}
 
 }
